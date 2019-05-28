@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Home — Welf von Hören">
+    <meta name="keywords" content="Welf von Hören,Welf,von Hören,Interaction Design">
+    <meta name="author" content="Welf von Hören">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | Welf von Hören</title>
+    <!-- NOTE: FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112053310-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112053310-2');
+</script>
+
+
+  </head>
+  <body>
+    <!-- NOTE: NAVBAR -->
+    <nav class="navbar">
+      <a class="logo" href="index.html">w.</a>
+      <div class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <!-- NOTE: NAV -->
+    <div class="side-nav">
+      <div class="name">elf von hören</div>
+      <a href="https://medium.com/@welfvh">blog</a>
+      <a href="portfolio.html">portfolio</a>
+      <a href="about.html">about</a>
+    </div>
+    <!-- NOTE: CONTENT -->
+    <div id="main">
+      <h1>Hi, I’m Welf.</h1>
+      <p>
+          I believe consciousness shapes reality. <br>
+          I study Interaction Design at <a id="codelink" href="https://code.berlin/en/">CODE Berlin</a>.<br>
+          I work to enable a world of fulfilled potential. <br>
+          <br><br><br><br><br><br><br><br><br><br>
+          Listen to the latest episode of <a id="codelink" href="https://medium.com/collectivepotential">collective.potential</a> <br> <a id="codelink" href="https://medium.com/collectivepotential/001-social-media-and-happiness-a218ee9a3979">  <b>001  Social Media and Happiness</b></a>
+      </p>
+    </div>
+
+
+    <!-- NOTE: FOOTER -->
+    <footer class="ft">
+          <a class="fimg" href="https://medium.com/@welfvh" target="_blank"><img src="./img/medium000.png" alt="medium logo"></a>
+          <a class="fimg" href="https://dribbble.com/welfvh" target="_blank"><img src="./img/dribbble000.png" alt="dribbble logo"></a>
+          <a class="fimg" href="https://www.linkedin.com/in/welfvh/" target="_blank"><img src="./img/linkedin000.png" alt="linkedin logo"></a>
+          <a class="fimg" href="https://instagram.com/welfvh" target="_blank"><img src="./img/instagram000.png" alt="instagram logo"></a>
+          <a class="fimg" href="https://twitter.com/welfvh" target="_blank"><img src="./img/twitter000.png" alt="twitter logo"></a>
+          <br>
+
+    </footer>
+
+    <!-- NOTE: JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.toggle').click(function(){
+          $('.toggle').toggleClass('active');
+          $('.side-nav').toggleClass('active');
+          $('#main').toggleClass('active')
+        });
+      });
+    </script>
+  </body>
+</html>

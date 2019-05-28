@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Welfs Personal Website">
+    <meta name="keywords" content="Welf von Hören,Welf,von Hören,Interaction Design">
+    <meta name="author" content="Welf von Hören">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About | Welf von Hören</title>
+    <!-- NOTE: FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112053310-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112053310-2');
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.toggle').click(function(){
+          $('.toggle').toggleClass('active');
+          $('.side-nav').toggleClass('active');
+          $('#main-about').toggleClass('active')
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- NOTE: NAVBAR -->
+    <nav class="navbar">
+      <a class="logo" href="index.html">w.</a>
+      <div class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <!-- NOTE: NAV -->
+    <div class="side-nav">
+      <div class="name">elf von hören</div>
+      <a href="https://medium.com/@welfvh">blog</a>
+      <a href="portfolio.html">portfolio</a>
+      <a id="current" href="about.html">about</a>
+    </div>
+    <!-- NOTE: BODY -->
+<div id="main-about">
+
+
+    <div class="wrapper2" id="about">
+      <div id="imgs">
+        <img src="./img/welf.JPG" alt="face">
+      </div>
+      <div id="textabout">
+        <h1>Imagination.</h1>
+        <p>
+
+          I dream of a world where we jump out of bed in the morning, driven by a sense of purpose.
+          A world where we create what's valuable to humanity and meaningful to ourselves.
+          A world where we seek mastery of our talents in the service of our species, this planet and our fellow creatures.
+          A world where we collectively thrive, because we approach life based on the laws of the universe, truths about the flourishing of conscious beings
+          and the workings of the human mind.
+
+          <br><br>
+          Smartphones act as the remote control of our society. Behavioral design grows increasingly more powerful.
+          We can use our scientific understanding of the human mind and behavior to create an universal framework for the actualization of potential.
+          <br><br>
+
+          We can combine behavioral psychology and interaction design
+           to do create social systems that manifest our highest values.
+
+           <br><br>I believe we can create a world of fulfilled potential.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- NOTE: FOOTER -->
+    <footer class="ft"> <!-- NOTE: © Welf von Hören 2018 | <a href="imprint.html">Imprint</a>-->
+          <a class="fimg" href="https://medium.com/@welfvh" target="_blank"><img src="./img/medium000.png" alt="medium logo"></a>
+          <a class="fimg" href="https://dribbble.com/welfvh" target="_blank"><img src="./img/dribbble000.png" alt="dribbble logo"></a>
+          <a class="fimg" href="https://www.linkedin.com/in/welfvh/" target="_blank"><img src="./img/linkedin000.png" alt="linkedin logo"></a>
+          <a class="fimg" href="https://instagram.com/welfvh" target="_blank"><img src="./img/instagram000.png" alt="instagram logo"></a>
+          <a class="fimg" href="https://twitter.com/welfvh" target="_blank"><img src="./img/twitter000.png" alt="twitter logo"></a>
+<br><br><br><br><br><br><br><br><br><br>          © Welf von Hören 2018 | <a href="imprint.html" id="black">Imprint</a>
+
+
+    </footer>
+    </div>
+  </body>
+</html>
